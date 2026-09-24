@@ -7,10 +7,8 @@ There is a need for a centralized system that helps pet owners securely maintain
 
 ## Solution
 
-> **PawPet**  
-> A system that allows pet owners to maintain health information for their pets, record vaccination and medical history, and receive reminders for upcoming or overdue vaccinations and other scheduled health activities.
-
----
+**PawPet**
+A system that allows pet owners to maintain health information for their pets, record vaccination and medical history, and receive reminders for upcoming or overdue vaccinations and other scheduled health activities.
 
 ## Objectives
 - **Centralized Health Repository:** Provide a single secure place to log and review pet medical histories.

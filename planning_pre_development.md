@@ -2,8 +2,6 @@
 
 This document outlines pre-development preparations, software engineering workflows, repository structure, and contribution conventions for **PawPet**.
 
----
-
 ## 1. Pre-Development Checklist
 
 - [x] Problem Definition finalized (`problem_definition.md`)
@@ -11,9 +9,7 @@ This document outlines pre-development preparations, software engineering workfl
 - [x] Project Feasibility Study completed (`feasibility_study.md`)
 - [x] System Architecture and Database Schemas designed (`system_design.md`)
 - [x] Core Algorithms and Pseudocode mapped (`algorithm_design.md`)
-- [ ] Development Environment and Repository setup (`planning_pre_development.md`)
-
----
+- [x] Development Environment and Repository setup (`planning_pre_development.md`)
 
 ## 2. Recommended Repository Layout
 
@@ -27,8 +23,6 @@ sdlc/
 ├── algorithm_design.md             # 5. Core Pseudocode & Logic
 └── planning_pre_development.md     # 6. Development Workflow & Guidelines
 ```
-
----
 
 ## 3. Git Workflow & Collaboration Guidelines
 
@@ -48,8 +42,6 @@ sdlc/
    - Screenshots or log evidence.
 5. **Code Review:** Require at least 1 peer approval before merging.
 
----
-
 ## 4. Milestone Timeline & Sprints
 
 ```mermaid
@@ -66,8 +58,6 @@ gantt
     Scheduler Engine           :p5, 2026-11-02, 8d
     Notifications & Testing    :p6, 2026-11-10, 7d
 ```
-
----
 
 ## 5. Development Tools & Standards
 

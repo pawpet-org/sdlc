@@ -2,8 +2,6 @@
 
 Welcome to the **PawPet** SDLC repository. This repository contains the complete pre-development documentation, architecture plans, requirements, and algorithmic specifications for the PawPet health management platform.
 
----
-
 ## 📑 SDLC Documentation Index
 
 | # | Document | Phase | Description |
@@ -14,8 +12,6 @@ Welcome to the **PawPet** SDLC repository. This repository contains the complete
 | **4** | [System Design](system_design.md) | Architecture & Design | Data flow, database schemas, and REST API specifications |
 | **5** | [Algorithm Design](algorithm_design.md) | Logic & Pseudocode | Core business logic, reminder scheduler, & pseudocode |
 | **6** | [Planning / Pre-Development](planning_pre_development.md) | Pre-Development | Git workflow, project timeline roadmap, & contribution guide |
-
----
 
 ## 🚀 How to Contribute / Propose Changes
 

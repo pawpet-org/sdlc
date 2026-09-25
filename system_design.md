@@ -2,8 +2,6 @@
 
 This document details the architectural structure, database schemas, component data flow, and API endpoints for **PawPet**.
 
----
-
 ## 1. High-Level Architecture
 
 PawPet follows a multi-tier Client-Server Architecture:
@@ -21,8 +19,6 @@ PawPet follows a multi-tier Client-Server Architecture:
                                     ▼
                          [ Notification Provider ] ──► (Email / Push)
 ```
-
----
 
 ## 2. Database Schema (Entity-Relationship Overview)
 
@@ -64,8 +60,6 @@ PawPet follows a multi-tier Client-Server Architecture:
 | `title` | VARCHAR(150) | Not Null | Reminder event title |
 | `due_date` | TIMESTAMP | Not Null | Target alert timestamp |
 | `status` | ENUM | Default 'PENDING' | PENDING, SENT, COMPLETED |
-
----
 
 ## 3. Core API Endpoints
 

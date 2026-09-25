@@ -2,8 +2,6 @@
 
 This document specifies the functional and non-functional requirements for the **PawPet** pet health record and reminder application.
 
----
-
 ## 1. Functional Requirements (FR)
 
 ### FR-1: User Account & Authentication
@@ -26,8 +24,6 @@ This document specifies the functional and non-functional requirements for the *
 ### FR-5: Records Export & Sharing
 - **FR-5.1:** Users shall be able to export pet medical summaries into PDF or printable formats for veterinary visits.
 
----
-
 ## 2. Non-Functional Requirements (NFR)
 
 ### NFR-1: Usability & Mobile Responsiveness
@@ -44,8 +40,6 @@ This document specifies the functional and non-functional requirements for the *
 ### NFR-4: Reliability & Availability
 - **NFR-4.1:** System target uptime shall be 99.5%.
 - **NFR-4.2:** Daily automated database backups with a Recovery Point Objective (RPO) under 24 hours.
-
----
 
 ## 3. User Roles & Key Use Cases
 

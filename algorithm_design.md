@@ -2,8 +2,6 @@
 
 This document outlines core algorithmic logic and pseudocode implementations for essential **PawPet** features before writing production source code.
 
----
-
 ## Algorithm 1: Reminder Dispatcher & Status Evaluator
 
 **Purpose:** Runs periodically (e.g., via background cron every 15 minutes) to find pending reminders due within the notification window, dispatch alerts, and update reminder statuses.
@@ -53,8 +51,6 @@ FUNCTION ProcessPendingReminders():
 END FUNCTION
 ```
 
----
-
 ## Algorithm 2: Vaccination Schedule Due-Date Calculator
 
 **Purpose:** Automatically calculates next booster due date based on vaccine type, pet age, and previous administration date.
@@ -82,8 +78,6 @@ FUNCTION CalculateNextVaccineDueDate(petAgeMonths, vaccineType, lastAdministered
     RETURN nextDueDate
 END FUNCTION
 ```
-
----
 
 ## Algorithm 3: Overdue Status Aggregator
 

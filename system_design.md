@@ -6,20 +6,6 @@ This document details the architectural structure, database schemas, component d
 
 PawPet follows a multi-tier Client-Server Architecture:
 
-```
-[ Client Web / Mobile App ]
-          │ (HTTPS REST API / WebSockets)
-          ▼
-   [ API Gateway / Node Server ] ──────► [ Authentication Service ]
-          │
-          ├─────────────────────────┐
-          ▼                         ▼
-   [ Database (PostgreSQL) ]  [ Background Worker / Cron Scheduler ]
-                                    │
-                                    ▼
-                         [ Notification Provider ] ──► (Email / Push)
-```
-
 ```mermaid
 flowchart TD
     A[Client Web / Mobile App]

@@ -20,6 +20,24 @@ PawPet follows a multi-tier Client-Server Architecture:
                          [ Notification Provider ] ──► (Email / Push)
 ```
 
+```mermaid
+flowchart TD
+    A[Client Web / Mobile App]
+    B[API Gateway / Node Server]
+    C[Authentication Service]
+    D[Database PostgreSQL]
+    E[Background Worker / Cron Scheduler]
+    F[Notification Provider]
+    G[Email / Push]
+
+    A -->|HTTPS REST API / WebSockets| B
+    B --> C
+    B --> D
+    B --> E
+    E --> F
+    F --> G
+```
+
 ## 2. Database Schema (Entity-Relationship Overview)
 
 ### Users Table (`users`)

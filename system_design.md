@@ -9,7 +9,7 @@ PawPet follows a multi-tier Client-Server Architecture:
 ```mermaid
 flowchart TD
     A[Client Web / Mobile App]
-    B[API Gateway / Node Server]
+    B[API Gateway / GoLang Server]
     C[Authentication Service]
     D[Database PostgreSQL]
     E[Background Worker / Cron Scheduler]

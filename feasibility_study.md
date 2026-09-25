@@ -6,8 +6,8 @@ This document evaluates the practical viability of developing and deploying **Pa
 
 - **Technology Stack:**
   - **Frontend:** React with Vite for fast refresh and development.
-  - **Backend:** GoLang API server for record management and notification scheduling.
-  - **Database:** PostgreSQL for structured pet records and JSON health histories.
+  - **Backend:** GoLang with gin Web Framework for API server for record management and notification scheduling.
+  - **Database:** PostgreSQL with GORM ORM for structured pet records and JSON health histories.
   - **Notifications:** 
     - Email notifications using SendGrid while testing and self-hosted SMTP in production.
     - Telegram notifications using Telegram Bot API.
